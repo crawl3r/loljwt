@@ -2,7 +2,7 @@
 
 A jwt cracker written in Rust. Apologies for any bad code, this is my first attempt at Rust - but I'm very much enjoying it :)
 
-Build in release, works so much faster (for obvious rasons):  
+Build in release, works so much faster (for obvious reasons):  
 ```
 cargo build --release
 ```
@@ -14,5 +14,5 @@ Running:
 
 Note: When parsing the wordlist, I have only accounted for UTF-8 stuff so skip any non-friendly first:  
 ```
-iconv -f utf-8 -t utf-8 -c file.txt > new.txt
+iconv -f utf-8 -t utf-8 -c old.txt > new.txt
 ```
