@@ -1,0 +1,17 @@
+[package]
+name = "lolJWT"
+version = "0.1.0"
+authors = ["Crawl3r @monobehaviour"]
+
+[lib]
+name = "loljwtlib"
+path = "src/loljwtlib.rs"
+
+[[bin]]
+name = "loljwt"
+path = "src/loljwt.rs"
+
+[dependencies]
+jsonwebtoken = "7"
+serde = {version = "1.0", features = ["derive"] }
+clap = "2.33.0"
