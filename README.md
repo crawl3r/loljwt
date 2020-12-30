@@ -16,3 +16,11 @@ Note: When parsing the wordlist, I have only accounted for UTF-8 stuff so skip a
 ```
 iconv -f utf-8 -t utf-8 -c old.txt > new.txt
 ```
+  
+### License  
+I'm just a simple skid. Licensing isn't a big issue to me, I post things that I find helpful online in the hope that others can:  
+ A) learn from the code  
+ B) find use with the code or   
+ C) need to just have a laugh at something to make themselves feel better  
+  
+Either way, if this helped you - cool :)  
